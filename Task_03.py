@@ -4,7 +4,11 @@
 #  in > gipopotampo > po   >> out 3
 #  in > gipopotampo > ta   >> out 1
 
+#  dir(str) в консоле покажет все методы к строкам
+
+
 str_first = input()
 str_second = input()
 
-print(str_first.count(str_second))
+print(str_first.count(str_second))  # .count метод подсчета вхождений
+                                    # строки в подстроку
