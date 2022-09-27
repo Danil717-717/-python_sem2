@@ -25,12 +25,10 @@ m = 1
 for i in range(len(list)):
     if i == posit_1 - 1:
         m = list[i] * m 
-#print(m)  
-
+ 
 n = 1
 for i in range(len(list)):
     if i == posit_2 - 1:
         n = list[i] * n 
-#print(n)
 
 print(m * n)
