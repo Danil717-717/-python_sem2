@@ -11,16 +11,9 @@ for i in range(1, num + 1):
     num_list.append(i - 1)
 print(num_list)
 
-n = []
-for i in range(0, len(num_list)):
-    var = 0
-    if i % 2 == 0: 
-        for i in range(1, len(num_list) - 1):
-            i = var[i] 
-            if i % 2 == 1: 
-                m = num_list[i] + 1
-                print(m, end = " ")
-
-
+#    не сдюжил!) на семинаре или в комметах 
+#    расскажите решение плиз.
+#    думаю через рекурсию, но не могу понять как)
+#####
 
 #####
