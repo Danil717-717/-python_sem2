@@ -13,7 +13,7 @@ for i in range(num):
 
 # -------------------------------------- 2 вариант
 
-##num = int(input())
+num = int(input())
 
-#for i in range(num):
-   # print((-3) ** i, end=", ")
+for i in range(num):
+    print((-3) ** i, end=", ")
