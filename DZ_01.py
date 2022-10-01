@@ -15,3 +15,18 @@ while num_natur > 0:
     sum = sum + digit
     num_natur = num_natur // 10
 print(sum)    
+
+###########################################################
+
+num = float(input())
+sum_digits = 0
+
+power = len(str(num)) - 2
+num *= 10 ** power
+
+while num:
+    sum_digits += num % 10
+    num //= 10
+
+print(int(sum_digits))
+
